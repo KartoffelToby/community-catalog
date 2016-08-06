@@ -1,0 +1,13 @@
+{
+    "api": "http://taiga.mycompany.com/api/v1/",
+    "eventsUrl": "ws://taiga.mycompany.com/events",
+    "debug": false,
+    "debugInfo": false,
+    "defaultLanguage": "de",
+    "publicRegisterEnabled": false,
+    "feedbackEnabled": false,
+    "privacyPolicyUrl": null,
+    "termsOfServiceUrl": null,
+    "maxUploadFileSize": null,
+    "contribPlugins": []
+}
