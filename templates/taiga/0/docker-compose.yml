@@ -20,12 +20,12 @@ celery:
     - rabbit
 
 events:
-  image: kartoffeltoby/taiga-events
+  image: kartoffeltoby/taiga-events:latest
   links:
     - rabbit
 
 taiga:
-  image: kartoffeltoby/taiga
+  image: kartoffeltoby/taiga:latest
   restart: always
   links:
     - postgres
